@@ -1419,3 +1419,44 @@ video {
 .starter-section {
   /* Add your styles here */
 }
+
+
+/*--------------------------------------------------------------
+# Video  Section Botão Youtube 
+-----------------------------------------------------------*/
+
+.btnYT {
+  background-color: #C25797;  /* azul suave */
+  color: #fff;
+  padding: 18px 40px;           /* botão maior */
+  border: none;
+  border-radius: 6px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;              /* fonte maior */
+  font-weight: 600;
+  letter-spacing: 2px;          /* espaçamento entre letras */
+  box-shadow: 0 4px 6px rgba(74, 144, 226, 0.4);
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  display: inline-flex;         /* flex para centralizar */
+  align-items: center;          /* vertical */
+  justify-content: center;      /* horizontal */
+  text-align: center;           /* centraliza texto dentro do botão */
+  user-select: none;            /* evita seleção do texto ao clicar */
+}
+
+.btnYT:hover {
+  background-color: #357ABD; /* azul mais escuro */
+  box-shadow: 0 6px 10px rgba(53, 122, 189, 0.6);
+  transform: translateY(-2px);
+}
+
+.btnYT:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 5px rgba(53, 122, 189, 0.4);
+}
+
+
+
+
+
